@@ -184,7 +184,7 @@ export function Footer() {
                 <div className="w-8 h-8 rounded-lg bg-white/5 flex items-center justify-center">
                   <MapPin className="w-4 h-4 text-primary" />
                 </div>
-                <span className="mt-1.5">123 Solar Street, Melbourne VIC 3000</span>
+                <span className="mt-1.5">86 Hotham St, Preston VIC 3072</span>
               </li>
             </ul>
             <div className="mt-10 pt-6 border-t border-white/5">

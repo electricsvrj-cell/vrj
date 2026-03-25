@@ -32,7 +32,7 @@ const contactInfo = [
   {
     icon: MapPin,
     title: 'Head Office',
-    details: '123 Solar Street, Melbourne VIC 3000',
+    details: '86 Hotham St, Preston VIC 3072',
     subtext: 'Visit by appointment',
     href: '#',
   },
@@ -48,7 +48,7 @@ const contactInfo = [
 const locations = [
   {
     city: 'Victoria',
-    address: '123 Solar Street, Melbourne VIC 3000',
+    address: '86 Hotham St, Preston VIC 3072',
     phone: '0479074555',
   },
 ]

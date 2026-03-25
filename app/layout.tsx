@@ -123,10 +123,10 @@ export default function RootLayout({
               "email": "info@vrjelectrics.com.au",
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "123 Solar Street",
-                "addressLocality": "Melbourne",
+                "streetAddress": "86 Hotham St",
+                "addressLocality": "Preston",
                 "addressRegion": "VIC",
-                "postalCode": "3000",
+                "postalCode": "3072",
                 "addressCountry": "AU"
               },
               "geo": {
