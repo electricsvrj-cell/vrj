@@ -32,7 +32,7 @@ export async function POST(req: Request) {
     // 1. Send Admin Notification
     await transporter.sendMail({
       from: `"VRJ Electrics" <info@vrjelectrics.com.au>`,
-      to: 'varunshrma1990@gmail.com',
+      to: 'info@vrjelectrics.com.au',
       subject: `New Lead: ${name} - ${propertyType}`,
       html: `
         <div style="font-family: sans-serif; line-height: 1.5; color: #333;">
