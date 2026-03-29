@@ -24,7 +24,7 @@ export default function SungrowPage() {
     {
       name: 'SUNGROW SBR HV BATTERY',
       image: sbrAsset,
-      datasheet: 'https://www.aaaenergy.com.au/images/battery/datasheet/sungrow.pdf'
+      datasheet: '/datasheets/sungrow.pdf'
     },
 
   ]
@@ -176,12 +176,12 @@ export default function SungrowPage() {
                   </div>
 
                   {/* Image */}
-                  <div className="p-8 flex justify-center items-center h-80 relative">
+                  <div className="p-12 flex justify-center items-center h-96 relative">
                     <Image
                       src={model.image}
                       alt={`Sungrow ${model.name}`}
-                      width={280}
-                      height={280}
+                      width={240}
+                      height={240}
                       className="object-contain transition-transform duration-500 group-hover:scale-110"
                     />
                   </div>

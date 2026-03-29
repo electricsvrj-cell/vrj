@@ -24,12 +24,12 @@ export default function FoxESSPage() {
     {
       name: 'EQ4800',
       image: eq4800Asset,
-      datasheet: 'https://www.aaaenergy.com.au/images/battery/datasheet/fox-ess-datasheet.pdf'
+      datasheet: '/datasheets/fox-ess-datasheet.pdf'
     },
     {
       name: 'CQ6',
       image: cq6Asset,
-      datasheet: 'https://www.aaaenergy.com.au/images/battery/datasheet/cq6.pdf'
+      datasheet: '/datasheets/cq6.pdf'
     }
   ]
 
@@ -161,12 +161,12 @@ export default function FoxESSPage() {
                   </div>
                   
                   {/* Image */}
-                  <div className="p-8 flex justify-center items-center h-80 relative">
+                  <div className="p-12 flex justify-center items-center h-96 relative">
                     <Image
                       src={model.image}
                       alt={`Fox ESS ${model.name}`}
-                      width={280}
-                      height={280}
+                      width={240}
+                      height={240}
                       className="object-contain transition-transform duration-500 group-hover:scale-110"
                     />
                   </div>

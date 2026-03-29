@@ -113,7 +113,10 @@ const serviceData = {
       answer: 'Yes, but only if your system is configured for backup. We install batteries with automatic backup switching to keep essential circuits running during grid outages.',
     },
   ],
-  heroImage: '/solar-battery-banner.png',
+  heroImage: [
+    '/solar-battery-1.png',
+    '/solar-battery-2.png',
+  ],
 }
 
 export default function SolarBatteryInstallationPage() {

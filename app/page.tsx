@@ -8,10 +8,10 @@ import { WhyChooseUs } from '@/components/sections/why-choose-us'
 import { ProcessSteps } from '@/components/sections/process-steps'
 import { Savings } from '@/components/sections/savings'
 import { CaseStudies } from '@/components/sections/case-studies'
-import { BlogPreview } from '@/components/sections/blog-preview'
 import { FAQ } from '@/components/sections/faq'
 import { CTA } from '@/components/sections/cta'
 import { LeadSection } from '@/components/sections/lead-section'
+import { Reviews } from '@/components/sections/reviews'
 
 export default function HomePage() {
   return (
@@ -26,10 +26,10 @@ export default function HomePage() {
         <ProcessSteps />
         <Savings />
         <CaseStudies />
-        <BlogPreview />
         <FAQ />
         <CTA />
         <LeadSection />
+        <Reviews />
       </main>
       <Footer />
     </>

@@ -69,7 +69,7 @@ export default function Solar101kWPage() {
                   10.1kW <span className="text-primary">Solar & Battery System</span>
                 </h1>
                 <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-8">
-                  Maximise Energy Independence With AAA Energy’s 10.1kW Solar And Battery System—Ideal For Large Australian Homes. Generating Approximately 40-50kWh Daily, EVs, And Pools. Store Excess Energy For Night Use Or Outages. Installed By SAA-Accredited Experts Using Premium Components. Claim Rebates And Enjoy Long-Term Savings. Contact AAA Energy For A Free Quote Today.
+                  Maximise Energy Independence With VRJ Electrics 10.1kW Solar And Battery System—Ideal For Large Australian Homes. Generating Approximately 40-50kWh Daily, EVs, And Pools. Store Excess Energy For Night Use Or Outages. Installed By SAA-Accredited Experts Using Premium Components. Claim Rebates And Enjoy Long-Term Savings. Contact VRJ Electrics For A Free Quote Today.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <Button
@@ -110,13 +110,13 @@ export default function Solar101kWPage() {
               </h2>
               <div className="space-y-6 mb-10">
                 <p className="text-muted-foreground max-w-3xl mx-auto text-lg leading-relaxed">
-                  Harness abundant Australian sunshine with AAA Energy’s premium 10.1kW solar and battery solution. Designed for large homes or small businesses, it delivers exceptional energy independence and savings.
+                  Harness abundant Australian sunshine with VRJ Electrics premium 10.1kW solar and battery solution. Designed for large homes or small businesses, it delivers exceptional energy independence and savings.
                 </p>
                 <p className="text-muted-foreground max-w-3xl mx-auto text-lg leading-relaxed">
                   This powerful system generates approximately 40–50kWh of clean electricity daily enough to run high-consumption appliances, air conditioning, pools, or EVs while slashing your grid reliance. Paired with advanced battery storage, surplus solar energy is stored for use during peak tariff periods or grid outages, maximising bill savings and ensuring uninterrupted power.
                 </p>
                 <p className="text-muted-foreground max-w-3xl mx-auto text-lg leading-relaxed font-medium text-foreground/80">
-                  AAA Energy guarantees reliability with SAA-accredited installation and premium components engineered for Australia’s climate. Our nationwide team tailors every system for optimal performance, helping you reduce carbon emissions and achieve true energy autonomy. Experience seamless transitions to solar with expert guidance on rebates and system design.
+                  VRJ Electrics guarantees reliability with SAA-accredited installation and premium components engineered for Australia’s climate. Our nationwide team tailors every system for optimal performance, helping you reduce carbon emissions and achieve true energy autonomy. Experience seamless transitions to solar with expert guidance on rebates and system design.
                 </p>
               </div>
               <div className="w-24 h-1 bg-primary mx-auto mt-6" />

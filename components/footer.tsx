@@ -35,7 +35,7 @@ export function Footer() {
     <footer className="bg-[#050b1a] text-white overflow-hidden relative">
       {/* Decorative Glow */}
       <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-primary/5 rounded-full blur-[100px] -translate-y-1/2 translate-x-1/2" />
-      
+
       {/* Main Footer */}
       <div className="container-premium section-padding relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8">
@@ -57,7 +57,7 @@ export function Footer() {
             </p>
             <div className="flex gap-4">
               <a
-                href="https://facebook.com/vrjelectrics"
+                href="https://www.facebook.com/people/Vrj-Electrics/61576492528901/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 flex items-center justify-center rounded-full bg-white/5 text-white hover:bg-primary hover:text-primary-foreground transition-all border border-white/10"
@@ -66,7 +66,7 @@ export function Footer() {
                 <Facebook className="w-5 h-5" />
               </a>
               <a
-                href="https://instagram.com/vrjelectrics"
+                href="https://www.instagram.com/vrjelectrics/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 flex items-center justify-center rounded-full bg-white/5 text-white hover:bg-primary hover:text-primary-foreground transition-all border border-white/10"
@@ -83,15 +83,7 @@ export function Footer() {
               >
                 <Linkedin className="w-5 h-5" />
               </a>
-              <a
-                href="https://youtube.com/@vrjelectrics"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 flex items-center justify-center rounded-full bg-white/5 text-white hover:bg-primary hover:text-primary-foreground transition-all border border-white/10"
-                aria-label="YouTube"
-              >
-                <Youtube className="w-5 h-5" />
-              </a>
+
             </div>
           </div>
 

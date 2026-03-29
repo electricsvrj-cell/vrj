@@ -68,7 +68,7 @@ export default function Solar66kWPage() {
                   6.6kW <span className="text-primary">Solar System and Battery System</span>
                 </h1>
                 <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-8">
-                  Maximise Savings With AAA Energy’s 6.6kW Solar And Battery System Ideal For Australian Homes. Generating Approximately 24 Kilowatt-Hours (KWh) Of Electricity Per Day, Reduce Grid Reliance, And Cut Power Bills. Enjoy Backup During Outages And Peak Times. Installed By SAA-Accredited Experts Using Premium Components. Claim Rebates And Boost Energy Independence. Contact AAA Energy For An Obligation-Free Quote Today.
+                  Maximise Savings With vrjlectrics 6.6kW Solar And Battery System Ideal For Australian Homes. Generating Approximately 24 Kilowatt-Hours (KWh) Of Electricity Per Day, Reduce Grid Reliance, And Cut Power Bills. Enjoy Backup During Outages And Peak Times. Installed By SAA-Accredited Experts Using Premium Components. Claim Rebates And Boost Energy Independence. Contact VRJ Electrics For An Obligation-Free Quote Today.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <Button
@@ -109,16 +109,16 @@ export default function Solar66kWPage() {
               </h2>
               <div className="space-y-6 mb-10">
                 <p className="text-muted-foreground max-w-3xl mx-auto text-lg leading-relaxed">
-                  Maximise your energy savings with a professionally installed 6.6kW solar and battery system from AAA Energy. Our smart systems are designed to deliver reliable power, reduce your energy bills, and give you more control over your household consumption.
+                  Maximise your energy savings with a professionally installed 6.6kW solar and battery system from VRJ Electrics. Our smart systems are designed to deliver reliable power, reduce your energy bills, and give you more control over your household consumption.
                 </p>
                 <p className="text-muted-foreground max-w-3xl mx-auto text-lg leading-relaxed">
-                  We work with a large network of SAA-accredited installers to provide quality solar solutions across Australia. With AAA Energy, you benefit from expert installation, clean energy production, and real long-term savings backed by trusted technology and local support.
+                  We work with a large network of SAA-accredited installers to provide quality solar solutions across Australia. With VRJ Electrics, you benefit from expert installation, clean energy production, and real long-term savings backed by trusted technology and local support.
                 </p>
                 <p className="text-muted-foreground max-w-3xl mx-auto text-lg leading-relaxed">
                   We tailor every system to your home’s energy needs, helping you get the most out of your solar panels and battery storage. Whether you want to cut bills or gain more independence from the grid, a 6.6kW system is a smart starting point.
                 </p>
                 <p className="text-muted-foreground max-w-3xl mx-auto text-lg leading-relaxed font-medium text-foreground/80">
-                  Choose AAA Energy to join thousands of Australian families already powering their homes with cleaner, smarter, and more affordable energy.
+                  Choose VRJ Electrics to join thousands of Australian families already powering their homes with cleaner, smarter, and more affordable energy.
                 </p>
               </div>
               <div className="w-24 h-1 bg-primary mx-auto mt-6" />

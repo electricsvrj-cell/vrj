@@ -9,6 +9,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from '@/components/ui/accordion'
+import { ServiceHeroSlider } from '@/components/service-hero-slider'
 import { ArrowRight, Check, Phone, type LucideIcon } from 'lucide-react'
 
 interface ServiceBenefit {
@@ -44,7 +45,7 @@ interface ServicePageProps {
     note: string
   }
   faqs: FAQ[]
-  heroImage?: string
+  heroImage?: string | string[]
 }
 
 export function ServicePageTemplate({
@@ -115,17 +116,19 @@ export function ServicePageTemplate({
                 </div>
               </div>
               <div className="relative">
-                <div className="relative aspect-square rounded-3xl overflow-hidden shadow-2xl transition-all hover:scale-[1.02] duration-500 border border-border bg-muted">
-                  {heroImage ? (
-                    <>
-                      <img
-                        src={heroImage}
-                        alt={title}
-                        className="w-full h-full object-cover"
-                      />
-                      <div className="absolute inset-0 bg-gradient-to-t from-background/40 to-transparent" />
-                    </>
-                  ) : (
+                {Array.isArray(heroImage) ? (
+                  <ServiceHeroSlider images={heroImage} title={title} />
+                ) : heroImage ? (
+                  <div className="relative aspect-square rounded-3xl overflow-hidden shadow-2xl transition-all hover:scale-[1.02] duration-500 border border-border bg-muted">
+                    <img
+                      src={heroImage}
+                      alt={title}
+                      className="w-full h-full object-cover"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-background/40 to-transparent" />
+                  </div>
+                ) : (
+                  <div className="relative aspect-square rounded-3xl overflow-hidden shadow-2xl border border-border bg-muted">
                     <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-primary/20 via-primary/10 to-background">
                       <div className="text-center text-foreground p-8">
                         <div className="w-24 h-24 mx-auto mb-6 rounded-full bg-primary/20 flex items-center justify-center">
@@ -134,8 +137,8 @@ export function ServicePageTemplate({
                         <p className="text-2xl font-serif font-bold">{subtitle}</p>
                       </div>
                     </div>
-                  )}
-                </div>
+                  </div>
+                )}
               </div>
             </div>
           </div>

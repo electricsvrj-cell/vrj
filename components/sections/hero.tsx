@@ -11,20 +11,16 @@ import Autoplay from 'embla-carousel-autoplay'
 
 const slides = [
   {
-    src: '/slider/hero-fox.png',
-    alt: 'Fox ESS Premium Solar & Battery Systems',
+    src: '/slider/hero-2.png',
+    alt: 'High-Efficiency Solar Panels & Storage',
   },
   {
-    src: '/slider/hero-sungrow.png',
-    alt: 'Sungrow Clean Energy Global Innovation',
+    src: '/slider/hero-3.png',
+    alt: 'Professional Solar Installation Services',
   },
   {
-    src: '/slider/hero-goodwe.png',
-    alt: 'GoodWe Smart Home Storage Solutions',
-  },
-  {
-    src: '/slider/hero-swatten.png',
-    alt: 'Swatten Advanced Battery Technology',
+    src: '/slider/hero-4.png',
+    alt: 'Smart Energy Management for Your Home',
   },
 ]
 
@@ -199,22 +195,6 @@ export function Hero() {
               >
                 <ArrowRight className="w-5 h-5" />
               </button>
-            </div>
-
-            {/* Floating Card */}
-            <div className="absolute -bottom-6 -left-6 p-6 rounded-2xl bg-card shadow-xl border border-border animate-float z-30">
-              <div className="flex items-center gap-4">
-                <div className="w-14 h-14 rounded-full bg-green-100 flex items-center justify-center">
-                  <svg className="w-7 h-7 text-green-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
-                    <polyline points="22 4 12 14.01 9 11.01" />
-                  </svg>
-                </div>
-                <div>
-                  <p className="font-bold text-foreground">$8,500 Saved</p>
-                  <p className="text-sm text-muted-foreground">Average annual savings</p>
-                </div>
-              </div>
             </div>
           </div>
         </div>

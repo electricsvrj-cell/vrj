@@ -69,7 +69,7 @@ export default function Solar132kWPage() {
                   13.2kW Solar <span className="text-primary">and Battery System</span>
                 </h1>
                 <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-8">
-                  Unlock Maximum Energy Independence With AAA Energy’s 13.2kW Solar And Battery System Ideal For Large Homes Or Businesses. Generating Approximately 52kWh Daily, EVs, And Pools. Store Excess Energy For Night Or Outages. Installed By SAA-Accredited Experts Using Premium Components. Claim Rebates And Enjoy Lasting Savings. Contact AAA Energy For A Free Consultation Today.
+                  Unlock Maximum Energy Independence With VRJ Electrics 13.2kW Solar And Battery System Ideal For Large Homes Or Businesses. Generating Approximately 52kWh Daily, EVs, And Pools. Store Excess Energy For Night Or Outages. Installed By SAA-Accredited Experts Using Premium Components. Claim Rebates And Enjoy Lasting Savings. Contact VRJ Electrics For A Free Consultation Today.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <Button
@@ -109,13 +109,13 @@ export default function Solar132kWPage() {
               </h2>
               <div className="space-y-6 mb-10">
                 <p className="text-muted-foreground max-w-3xl mx-auto text-lg leading-relaxed">
-                  Harness Australia’s abundant sunshine with AAA Energy’s premium 13.2kW solar and battery solution. Engineered for large households or small businesses, it delivers exceptional energy independence and bill savings from day one.
+                  Harness Australia’s abundant sunshine with  VRJ Electrics premium 13.2kW solar and battery solution. Engineered for large households or small businesses, it delivers exceptional energy independence and bill savings from day one.
                 </p>
                 <p className="text-muted-foreground max-w-3xl mx-auto text-lg leading-relaxed">
                   This powerful system generates approximately 53kWh of clean electricity daily—enough to run multiple air conditioners, pools, electric vehicles, and high-consumption appliances simultaneously. By significantly reducing grid reliance, you’ll slash electricity bills year-round.
                 </p>
                 <p className="text-muted-foreground max-w-3xl mx-auto text-lg leading-relaxed font-medium text-foreground/80">
-                  AAA Energy ensures peak performance with SAA-accredited installation and premium components built for Australia’s harsh climate. Our Australian-owned team designs every system for optimal efficiency, helping you reduce carbon emissions while achieving true energy autonomy. Experience seamless solar transitions with expert guidance on rebates and tailored solutions.
+                  VRJ Electrics ensures peak performance with SAA-accredited installation and premium components built for Australia’s harsh climate. Our Australian-owned team designs every system for optimal efficiency, helping you reduce carbon emissions while achieving true energy autonomy. Experience seamless solar transitions with expert guidance on rebates and tailored solutions.
                 </p>
               </div>
               <div className="w-24 h-1 bg-primary mx-auto mt-6" />

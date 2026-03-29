@@ -113,6 +113,7 @@ const serviceData = {
       answer: 'Yes, we provide priority repair services for critical heating and cooling failures to ensure you aren\'t left in discomfort during extreme weather.',
     },
   ],
+  heroImage: '/aircon-service.png',
 }
 
 export default function AirconServicePage() {

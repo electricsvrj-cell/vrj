@@ -114,6 +114,7 @@ const serviceData = {
       answer: 'Absolutely! Heat pumps are perfect companions for solar. We can set timers so the heat pump runs during peak solar production, using your free solar electricity.',
     },
   ],
+  heroImage: '/heat-pump-hero.png',
 }
 
 export default function HeatPumpInstallationPage() {

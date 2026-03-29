@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
+import NextImage from 'next/image'
 import { Navigation } from '@/components/navigation'
 import { Footer } from '@/components/footer'
 import { Button } from '@/components/ui/button'
@@ -163,13 +164,13 @@ export default function AboutPage() {
                   </p>
                 </div>
               </div>
-              <div className="relative aspect-square rounded-3xl overflow-hidden bg-gradient-to-br from-foreground/90 to-foreground/70">
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="text-center text-background p-8">
-                    <p className="text-6xl font-bold text-primary mb-4">6+</p>
-                    <p className="text-2xl font-serif">Years of Excellence</p>
-                  </div>
-                </div>
+              <div className="relative aspect-square rounded-3xl overflow-hidden shadow-2xl">
+                <NextImage
+                  src="/about_us.png"
+                  alt="VRJ Electrics Team"
+                  fill
+                  className="object-cover"
+                />
               </div>
             </div>
           </div>
