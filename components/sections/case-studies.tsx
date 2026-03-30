@@ -48,22 +48,22 @@ const projects = [
   {
     id: 4,
     category: 'Batteries',
-    title: 'Premium Home Backup',
+    title: 'GoodWe',
     location: 'Mosman, Sydney',
     systemSize: '10kWh Storage',
-    panels: 'SolarEdge Home Battery',
-    inverter: 'SolarEdge Energy Hub',
+    panels: 'GoodWe',
+    inverter: 'GoodWe',
     image: '/battery_install_alpha.png',
     description: 'Smart battery storage for whole-home backup and maximum energy independence.',
   },
   {
     id: 5,
     category: 'Batteries',
-    title: 'Industrial Storage',
+    title: 'Fox ESS',
     location: 'Dandenong, VIC',
     systemSize: '232kWh Storage',
-    panels: 'Tesla Powerpack 2',
-    inverter: 'Tesla Inverter System',
+    panels: 'Fox ESS',
+    inverter: 'Fox ESS',
     savings: '$15,000/year',
     image: '/battery_install_fox.png',
     description: 'Large-scale battery storage for commercial demand management and peak shaving.',
@@ -155,13 +155,7 @@ export function CaseStudies() {
 
               {/* Content */}
               <div className="p-6 flex flex-col flex-1">
-                <div className="flex items-center gap-2 text-sm text-muted-foreground mb-2">
-                  <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
-                    <circle cx="12" cy="10" r="3" />
-                  </svg>
-                  {project.location}
-                </div>
+                {/* Location removed */}
                 <h3 className="text-xl font-semibold text-foreground mb-3 group-hover:text-primary transition-colors">
                   {project.title}
                 </h3>
@@ -170,18 +164,20 @@ export function CaseStudies() {
                 </p>
 
                 {/* Specs */}
-                <div className="grid grid-cols-2 gap-4 pt-4 border-t border-border text-xs">
-                  <div>
-                    <p className="text-muted-foreground uppercase tracking-wider mb-1">
-                      {activeTab === 'Solar' ? 'Panels' : 'Storage'}
-                    </p>
-                    <p className="font-bold text-foreground truncate">{project.panels}</p>
+                {activeTab !== 'Solar' && (
+                  <div className="grid grid-cols-2 gap-4 pt-4 border-t border-border text-xs">
+                    <div>
+                      <p className="text-muted-foreground uppercase tracking-wider mb-1">
+                        Storage
+                      </p>
+                      <p className="font-bold text-foreground truncate">{project.panels}</p>
+                    </div>
+                    <div>
+                      <p className="text-muted-foreground uppercase tracking-wider mb-1">Inverter</p>
+                      <p className="font-bold text-foreground truncate">{project.inverter}</p>
+                    </div>
                   </div>
-                  <div>
-                    <p className="text-muted-foreground uppercase tracking-wider mb-1">Inverter</p>
-                    <p className="font-bold text-foreground truncate">{project.inverter}</p>
-                  </div>
-                </div>
+                )}
               </div>
             </article>
           ))}

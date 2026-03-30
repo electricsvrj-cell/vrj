@@ -34,7 +34,7 @@ const services = [
     description: 'Energy-efficient heating and cooling that works perfectly with solar power.',
     href: '/heat-pump-installation',
     featured: false,
-    image: '/service_heat_pump_1774188291671.png'
+    image: '/service_aircon_unit.png'
   },
   {
     icon: Wind,
@@ -42,7 +42,7 @@ const services = [
     description: 'Professional air conditioning solutions for year-round comfort in your home.',
     href: '/aircon-service',
     featured: false,
-    image: '/service_aircon_unit_1774188307483.png'
+    image: '/service_heat_pump_1774188291671.png'
   },
 ]
 
