@@ -87,7 +87,7 @@ export const metadata: Metadata = {
     canonical: 'https://vrjelectrics.com.au',
   },
   verification: {
-    google: 'google-verification-code',
+    google: 'LFCS7YnQJoWj3c9-2ASI4nv3zk6-jV9jHiYe1UdFqDo',
   },
 }
 
@@ -109,6 +109,23 @@ export default function RootLayout({
   return (
     <html lang="en-AU" className={`${inter.variable} ${playfair.variable}`} data-scroll-behavior="smooth">
       <head>
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-3XHBWPGEKS"
+          strategy="afterInteractive"
+        />
+        <Script
+          id="google-analytics"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-3XHBWPGEKS');
+            `,
+          }}
+        />
         <Script
           id="gtm-script"
           strategy="afterInteractive"
