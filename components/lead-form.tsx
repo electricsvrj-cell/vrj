@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import { useRouter } from 'next/navigation'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select'
@@ -23,6 +24,7 @@ export function LeadForm({
   description = 'Join thousands of Victorians saving money with solar. Our experts will design the perfect system for your home.',
   className,
 }: LeadFormProps) {
+   const router = useRouter()
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [isSubmitted, setIsSubmitted] = useState(false)
   const [formData, setFormData] = useState({
@@ -62,6 +64,8 @@ export function LeadForm({
 
       if (response.ok) {
         setIsSubmitted(true)
+        // Redirect to thank you page
+        router.push('/thank-you')
       } else {
         const data = await response.json()
         alert(data.error || 'Something went wrong. Please try again.')

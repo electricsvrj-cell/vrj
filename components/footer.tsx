@@ -22,7 +22,7 @@ const company = [
   { title: 'Our Blog', href: '/blog' },
   { title: 'Contact', href: '/contact' },
   { title: 'Careers', href: '/contact' },
-  { title: 'Privacy Policy', href: '/contact' },
+  { title: 'Privacy Policy', href: '/privacy-policy' },
   { title: 'Terms of Service', href: '/contact' },
 ]
 
