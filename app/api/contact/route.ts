@@ -29,10 +29,14 @@ export async function POST(req: Request) {
       },
     })
 
+    const senderEmail = process.env.SMTP_USER || 'info@vrjelectrics.com.au';
+
     // 1. Send Admin Notification
+    console.log(`Attempting to send admin notification to electricsvrj@gmail.com...`)
     await transporter.sendMail({
-      from: `"VRJ Electrics" <info@vrjelectrics.com.au>`,
-      to: 'info@vrjelectrics.com.au',
+      from: `"VRJ Electrics Leads" <${senderEmail}>`,
+      to: 'electricsvrj@gmail.com',
+      replyTo: email,
       subject: `New Lead: ${name} - ${propertyType}`,
       html: `
         <div style="font-family: sans-serif; line-height: 1.5; color: #333;">
@@ -46,13 +50,15 @@ export async function POST(req: Request) {
             <tr><td style="padding: 8px; border-bottom: 1px solid #eee;"><strong>Stories:</strong></td><td style="padding: 8px; border-bottom: 1px solid #eee;">${stories}</td></tr>
             <tr><td style="padding: 8px; border-bottom: 1px solid #eee;"><strong>Address:</strong></td><td style="padding: 8px; border-bottom: 1px solid #eee;">${houseNumber} ${streetName}, ${suburb}, ${state} ${postcode}</td></tr>
           </table>
+          <p style="margin-top: 20px;"><em>You can reply directly to this email to contact the lead.</em></p>
         </div>
       `,
     })
 
     // 2. Send Auto-Reply to User
+    console.log(`Attempting to send auto-reply to ${email}...`)
     await transporter.sendMail({
-      from: `"VRJ Electrics" <info@vrjelectrics.com.au>`,
+      from: `"VRJ Electrics" <${senderEmail}>`,
       to: email,
       subject: 'We received your solar quote request!',
       html: `
@@ -76,9 +82,11 @@ export async function POST(req: Request) {
       `,
     })
 
+    console.log('All emails sent successfully')
     return NextResponse.json({ success: true })
   } catch (error) {
     console.error('Contact API Error:', error)
     return NextResponse.json({ error: 'Failed to send message' }, { status: 500 })
   }
 }
+

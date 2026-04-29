@@ -163,13 +163,13 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="mailto:info@vrjelectrics.com.au"
+                  href="mailto:electricsvrj@gmail.com"
                   className="flex items-start gap-3 text-sm text-white/70 hover:text-primary transition-all group"
                 >
                   <div className="w-8 h-8 rounded-lg bg-white/5 flex items-center justify-center group-hover:bg-primary/20 transition-all">
                     <Mail className="w-4 h-4 text-primary" />
                   </div>
-                  <span className="mt-1.5">info@vrjelectrics.com.au</span>
+                  <span className="mt-1.5">electricsvrj@gmail.com</span>
                 </a>
               </li>
               <li className="flex items-start gap-3 text-sm text-white/70 group">
