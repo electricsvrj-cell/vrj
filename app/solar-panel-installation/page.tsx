@@ -19,15 +19,21 @@ const serviceData = {
   ],
   detailedDescription: [
     'Whether you\'re a homeowner looking to cut your power bills or a business trying to control operating costs, solar panel installation starts the same way: a system designed around how you actually use electricity, built with components that last, and installed by people who are properly accredited to do it. VRJ Electrics has completed 1,000+ solar panel installations across Victoria — from single-storey homes to large commercial roofs — using only Tier 1 panels and inverters, backed by a 25-year warranty. If you already know which you need, jump straight to the Residential Solar or Commercial Solar Power pages for the detail.',
-    '**Areas Served:** ●Solar Panel Installation Melbourne → /solar-panel-installation-melbourne',
-    '**Areas Served:** ●Solar Panel Installation Geelong → /solar-panel-installation-geelong',
-    '**Areas Served:** ●Solar Panel Installation Ballarat → /solar-panel-installation-ballarat',
-    '**Areas Served:** ●Solar Panel Installation Bendigo → /solar-panel-installation-bendigo',
-    '**Areas Served:** ●Solar Panel Installation Sunbury → /solar-panel-installation-sunbury',
-    '**Areas Served:** ●Solar Panel Installation Melton → /solar-panel-installation-melton',
-    '**Areas Served:** ●Solar Panel Installation Craigieburn → /solar-panel-installation-craigieburn',
-    '**Areas Served:** ●Solar Panel Installation Frankston → /solar-panel-installation-frankston',
   ],
+  areasWeServe: {
+    title: 'Areas Served:',
+    description: 'We provide end-to-end solar panel installation across Victoria for homes and businesses, including the following locations:',
+    locations: [
+      { name: 'Solar Panel Installation Melbourne', url: '/solar-panel-installation-melbourne' },
+      { name: 'Solar Panel Installation Geelong', url: '/solar-panel-installation-geelong' },
+      { name: 'Solar Panel Installation Ballarat', url: '/solar-panel-installation-ballarat' },
+      { name: 'Solar Panel Installation Bendigo', url: '/solar-panel-installation-bendigo' },
+      { name: 'Solar Panel Installation Sunbury', url: '/solar-panel-installation-sunbury' },
+      { name: 'Solar Panel Installation Melton', url: '/solar-panel-installation-melton' },
+      { name: 'Solar Panel Installation Craigieburn', url: '/solar-panel-installation-craigieburn' },
+      { name: 'Solar Panel Installation Frankston', url: '/solar-panel-installation-frankston' },
+    ],
+  },
   benefits: [
     {
       title: 'CEC-accredited installers on every job, no subcontracted crews',
