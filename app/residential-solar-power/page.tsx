@@ -114,6 +114,20 @@ const serviceData = {
       answer: 'Most residential installations are completed in a single day. The entire process from quote acceptance to generating power takes 2-4 weeks including paperwork.',
     },
   ],
+  areasWeServe: {
+    title: 'Residential solar installation across Victoria',
+    description: 'We install home solar systems throughout Melbourne and regional Victoria, including:',
+    locations: [
+      { name: 'Melbourne', url: '/residential-solar-melbourne' },
+      { name: 'Geelong', url: '/residential-solar-geelong' },
+      { name: 'Ballarat', url: '/residential-solar-ballarat' },
+      { name: 'Bendigo', url: '/residential-solar-bendigo' },
+      { name: 'Sunbury', url: '/residential-solar-sunbury' },
+      { name: 'Melton', url: '/residential-solar-melton' },
+      { name: 'Craigieburn', url: '/residential-solar-craigieburn' },
+      { name: 'Frankston', url: '/residential-solar-frankston' },
+    ],
+  },
 }
 
 export default function ResidentialSolarPowerPage() {

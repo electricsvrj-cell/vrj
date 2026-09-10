@@ -46,6 +46,11 @@ interface ServicePageProps {
   }
   faqs: FAQ[]
   heroImage?: string | string[]
+  areasWeServe?: {
+    title: string
+    description: string
+    locations: { name: string; url: string }[]
+  }
 }
 
 export function ServicePageTemplate({
@@ -60,6 +65,7 @@ export function ServicePageTemplate({
   rebates,
   faqs,
   heroImage,
+  areasWeServe,
 }: ServicePageProps) {
   return (
     <>
@@ -272,6 +278,27 @@ export function ServicePageTemplate({
             </div>
           </div>
         </section>
+
+        {/* Areas We Serve Section */}
+        {areasWeServe && (
+          <section className="section-padding bg-background border-b border-border/50">
+            <div className="container-premium text-center">
+              <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-6">
+                {areasWeServe.title}
+              </h2>
+              <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
+                {areasWeServe.description}
+              </p>
+              <div className="flex flex-wrap justify-center gap-3">
+                {areasWeServe.locations.map((loc) => (
+                  <Link key={loc.name} href={loc.url} className="px-4 py-2 bg-secondary/50 rounded-full text-primary font-medium hover:bg-primary hover:text-primary-foreground transition-colors border border-border/50">
+                    {loc.name}
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
 
         {/* FAQ Section */}
         <section className="section-padding bg-secondary/30">

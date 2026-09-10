@@ -114,6 +114,20 @@ const serviceData = {
       answer: 'Commercial solar qualifies for instant asset write-off and depreciation benefits. Your accountant can claim these in your business tax return. We provide all required documentation.',
     },
   ],
+  areasWeServe: {
+    title: 'Commercial solar installation across Victoria',
+    description: 'We design and install commercial solar systems throughout Melbourne and regional Victoria, including:',
+    locations: [
+      { name: 'Melbourne', url: '/commercial-solar-power-melbourne' },
+      { name: 'Geelong', url: '/commercial-solar-power-geelong' },
+      { name: 'Ballarat', url: '/commercial-solar-power-ballarat' },
+      { name: 'Bendigo', url: '/commercial-solar-power-bendigo' },
+      { name: 'Sunbury', url: '/commercial-solar-power-sunbury' },
+      { name: 'Melton', url: '/commercial-solar-power-melton' },
+      { name: 'Craigieburn', url: '/commercial-solar-power-craigieburn' },
+      { name: 'Frankston', url: '/commercial-solar-power-frankston' },
+    ],
+  },
 }
 
 export default function CommercialSolarPowerPage() {
