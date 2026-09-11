@@ -44,6 +44,14 @@ const services = [
     featured: false,
     image: '/service_heat_pump_1774188291671.png'
   },
+  {
+    icon: Home,
+    title: 'Solar Panel Installation',
+    description: 'Expert solar panel installation for your home and business, maximizing your energy savings.',
+    href: '/solar-panel-installation',
+    featured: false,
+    image: '/hero_solar_residential_1774188229645.png'
+  },
 ]
 
 export function ServicesOverview() {

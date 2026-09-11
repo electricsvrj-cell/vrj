@@ -3,7 +3,7 @@ import { ServicePageTemplate } from '@/components/service-page-template'
 import { Sun } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Commercial Solar Power Melton | VRJ Electrics',
+  title: 'Commercial Solar Power Melton',
   description: 'Reduce business energy costs with commercial solar in Melton. Custom system design, Powercor network experience, CEC-accredited installers.',
 }
 

@@ -3,7 +3,7 @@ import { ServicePageTemplate } from '@/components/service-page-template'
 import { Sun } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Solar Panel Installation Bendigo | VRJ Electrics',
+  title: 'Solar Panel Installation Bendigo',
   description: 'Solar panel installation for Bendigo homes and businesses. CEC-accredited, Tier 1 panels, 25-year warranty. Free quote today.',
 }
 

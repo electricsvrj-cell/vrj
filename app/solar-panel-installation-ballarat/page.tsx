@@ -3,7 +3,7 @@ import { ServicePageTemplate } from '@/components/service-page-template'
 import { Sun } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Solar Panel Installation Ballarat | VRJ Electrics',
+  title: 'Solar Panel Installation Ballarat',
   description: 'Hail and frost-rated solar panel installation in Ballarat. CEC-accredited, 25-year warranty, same-day quotes across the Powercor network.',
 }
 

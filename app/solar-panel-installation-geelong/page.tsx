@@ -3,7 +3,7 @@ import { ServicePageTemplate } from '@/components/service-page-template'
 import { Sun } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Solar Panel Installation Geelong | VRJ Electrics',
+  title: 'Solar Panel Installation Geelong',
   description: 'CEC-accredited solar panel installation in Geelong. Tier 1 panels, coastal-rated fittings, 25-year warranty. Free quote in 24hrs.',
 }
 

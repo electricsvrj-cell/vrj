@@ -3,7 +3,7 @@ import { ServicePageTemplate } from '@/components/service-page-template'
 import { Sun } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Solar Panel Installation Frankston | VRJ Electrics',
+  title: 'Solar Panel Installation Frankston',
   description: 'Solar panel installation for Frankston homes and businesses. Coastal-rated fittings, CEC-accredited, 25-year warranty. Free quote today.',
 }
 

@@ -3,7 +3,7 @@ import { ServicePageTemplate } from '@/components/service-page-template'
 import { Sun } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Commercial Solar Power Ballarat | VRJ Electrics',
+  title: 'Commercial Solar Power Ballarat',
   description: 'Reduce business energy costs with commercial solar in Ballarat. Hail-rated systems, Powercor network experience, CEC-accredited installers.',
 }
 

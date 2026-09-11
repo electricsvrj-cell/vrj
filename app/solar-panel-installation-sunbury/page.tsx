@@ -3,7 +3,7 @@ import { ServicePageTemplate } from '@/components/service-page-template'
 import { Sun } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Solar Panel Installation Sunbury | VRJ Electrics',
+  title: 'Solar Panel Installation Sunbury',
   description: 'Solar panel installation for Sunbury homes and new estates. CEC-accredited installers, Tier 1 panels, 25-year warranty. Free quote today.',
 }
 

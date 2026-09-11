@@ -3,7 +3,7 @@ import { ServicePageTemplate } from '@/components/service-page-template'
 import { Sun } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Commercial Solar Power Geelong | VRJ Electrics',
+  title: 'Commercial Solar Power Geelong',
   description: 'Reduce business energy costs with commercial solar in Geelong. Custom system design, Powercor network experience, CEC-accredited installers.',
 }
 

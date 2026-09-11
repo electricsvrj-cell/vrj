@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: PostPageProps): Promise<Metad
   if (!post) return { title: 'Post Not Found' }
 
   return {
-    title: `${post.title} | VRJ Electrics Blog`,
+    title: `${post.title} Blog`,
     description: post.excerpt,
     openGraph: {
       title: post.title,

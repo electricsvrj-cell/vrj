@@ -3,7 +3,7 @@ import { ServicePageTemplate } from '@/components/service-page-template'
 import { Sun } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Solar Panel Installation Melton | VRJ Electrics',
+  title: 'Solar Panel Installation Melton',
   description: 'Solar panel installation for Melton homes and businesses. CEC-accredited, Tier 1 panels, 25-year warranty. Free, same-day quotes.',
 }
 

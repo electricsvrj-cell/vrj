@@ -3,7 +3,7 @@ import { Navigation } from '@/components/navigation'
 import { Footer } from '@/components/footer'
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy | VRJ Electrics',
+  title: 'Privacy Policy',
   description: 'Privacy Policy for VRJ Electrics (ACN 19 678 394 351). Learn how we collect, use, and protect your personal information.',
 }
 

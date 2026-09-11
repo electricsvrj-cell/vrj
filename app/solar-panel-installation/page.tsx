@@ -3,7 +3,7 @@ import { ServicePageTemplate } from '@/components/service-page-template'
 import { Sun } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Solar Panel Installation Victoria | VRJ Electrics',
+  title: 'Solar Panel Installation Victoria',
   description: 'End-to-end solar panel installation across Victoria for homes and businesses. Tier 1 panels, CEC-accredited installers, 25-year warranty. Free quote today.',
 }
 
